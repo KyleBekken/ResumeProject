@@ -1,0 +1,10 @@
+#Content of Dockerfile
+#Use ADD or COPY command to get your code inside container image
+FROM /home/zander/Documents/GitHub/Team-010-30-homework04
+MAINTAINER CSCI 3081w Team 30 Fall Semester
+ 
+#Add all files available at current location
+COPY . /home/zander/Documents/GitHub/Team-010-30-homework04
+ 
+#Set working directory
+WORKDIR /home/zander/Documents/GitHub/Team-010-30-homework04
